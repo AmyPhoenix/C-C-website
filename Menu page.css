@@ -573,7 +573,8 @@ letter-spacing: 0.1rem;
 	font-size: 20px;
 }
 
- .footer .container .footer-box h3 { color: black;
+ .footer .container .footer-box h3 { 
+ 	color: black;
     font-size: 1.8rem;
     font-weight: bolder;
     letter-spacing: 0.1rem;

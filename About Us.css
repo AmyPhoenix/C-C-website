@@ -368,20 +368,19 @@ ur {
 }
 
 .card-img {
-	width: 50%;
+	width: 70%;
 	height: 50%;
 }
 .card-name {
 	font-size: 35px;
 	margin-top: 3px;
-	display: inline-block;
+
 }
 
 .card-role {
 	font-size: 20px;
 	color: cadetblue;
 	margin-bottom: 5px;
-	display: block;
 }
 
 .card-email {
@@ -433,21 +432,20 @@ letter-spacing: 0.1rem;
 	font-size: 20px;
 }
 
- .footer .container .footer-box h3 { color: black;
+.footer .container .footer-box h3 { 
+ 	color: black;
     font-size: 1.8rem;
     font-weight: bolder;
     letter-spacing: 0.1rem;
 } 
 
-.footer .container .footer-box p { color: black;
+.footer .container .footer-box p { 
+	color: black;
     font-size: 1.5rem;
     line-height: 2.5rem;
     padding: 1.2rem 0;
 }
 
-.footer .container .footer-box button {
-	font-size: 100px;
-}
 
 /*general text format end*/
 
@@ -465,17 +463,15 @@ border-radius: 40px;
 	background: var(--bg);
 	color: black;
 	padding: 1rem;
-	cursor: pointer;
+	/* cursor: pointer; */
 	border: none;
 	font-size: 20px;
 }
 
-
-
 .footer .container .footer-box div a {
 	margin: 0.5rem;
 	color: black;
-	display: inline-flex;
+	display: inline-block;
 	width: 3rem;
 	height: 3rem;
 	line-height: 3rem;
@@ -486,8 +482,13 @@ border-radius: 40px;
 	font-size: 50px;
 }
 
+.footer .container .footer-box .icons button:hover{
+	/* font-size: 50px; */
+	color: floralwhite;
+}
+
 .footer .container .footer-box .icons a{
-	display: inline-flex;
+	display: ;
 }
 
 .footer .container .footer-box .icons a:hover{
