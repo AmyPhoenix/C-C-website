@@ -1,0 +1,227 @@
+
+<html>
+  <head>
+
+    <title>HTML is Easy</title>
+
+  </head>
+
+
+    <body style="background-color:#be93d4;">
+       <h1 style="background-color:black; color:#fdefb2; text-align: center; border: 5px solid #7a4988"> &#128528 Cubar, Lj N. &#128151 </h1>
+
+       <a href="https://www.facebook.com/lj.cubar"><p style="text-align: center">facebook account    &#128568 </p>   
+       </a>
+            <!Facebook Account>
+
+       <a href="https://ph.pinterest.com/amethysdeath/"><p style="text-align: center">pinterest account   &#128571  </p>
+       </a>
+             <!Pinterest Account>
+
+
+       <a href="https://www.youtube.com/@ljcubar"><p style="text-align: center">youtube account    &#128573  </p>
+       </a> 
+             <!Youtube Account>
+
+
+        <p style="text-align: center"><img src="Lj Cubar 2x2pic.jpg"; width="200" height="200">
+        </p>
+
+
+
+      <!First Paragraph>
+ <div style= "background-color:#fde992;color:#710193; padding 20px; text-align: center">
+   <p style="border: 5px solid #bda55d">
+
+We are a family of 5 gratefully happy and healthy, I have 2 sisters they are Luna the middle child, and Latrell the youngest and I'm the eldest daughter we somehow get along, and Luna is my closest. My mother works at the bank, while my dad works as a Lalamove delivery. My youngest sister is now in senior high, and my sister Luna is now in her first year of college. <br>
+
+    <img src="Family.jpg"; width="300" height="200">
+
+    
+    </p>
+  </div>
+
+
+      <!Second Paragraph>
+ <div style= "background-color:#e7c27d;color: #663046; padding 20px; text-align: center">
+    <p style="border: 5px solid #663046">
+
+My hobbies are reading I like to read a lot like novels and fiction it expands my world of imagination, and sometimes drawing ever since I was young I have always love to draw and my favorite colors are purple and yellow. I love music, I listen to a lot of songs or any music genre mostly my favorite is the Rock genre, I sing sometimes, I love cats and I like to eat.  <br>
+
+    <img src="Books.jpg"; width="300" height="200">
+
+    </p>
+  </div>
+     
+       <!Third Paragraph>
+  <div style= "background-color:#a1045a ;color:#e39ff6; padding 20px; text-align: center">
+     <p style="border: 5px solid #2c041c">
+
+My favorite quote is "Yesterday is history, Tomorrow is a mystery but Today is a gift. That is why it's called a Present - Master Oogway" This quote is from Kung Fu Panda one of my favorite movies. This quote states that appreciating the gift of today meaning appreciate what you have right now in every moment. And just focus on the present and decide what to do with it. <br>
+
+    <img src="Quote.jpg"; width="300" height="200">
+
+    </p>
+  </div>
+
+       <!Fourth Paragraph>
+  <div style= "background-color:#7a4988;color:#fdefb2; padding 20px; text-align: center">
+    <p style="border: 5px solid #311432">
+
+I have always dreamed of becoming an Archi as my main job and animator or graphic designer as my sideline. When I'm financially stable, I'll someday gift my parents a house and spoil them with whatever they want and need. Explore and travel, try new things, meet new people, and live to the fullest, and then maybe I'll marry someone I love:) <br>
+
+    <img src="Explore.jpg"; width="300" height="200">
+
+    </p>
+  </div>
+
+
+<!HERE STARTS THE TABLE>
+<style>
+        table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse; 
+        width: 100%; }
+
+        th {
+        border: 2px solid #311432;
+        background-color: #7a4988;
+        text-align: left; 
+        padding: 8px; }
+        
+        td {
+        border: 2px solid #311432;
+        background-color: #d8bfd8;
+        text-align: left; 
+        padding: 8px; }
+
+
+        tr:nth-child(even) {
+        background-color: #d8bfd8; }
+</style>
+
+       <h2>&#128151 My Schedule &#128151</h2>
+
+       <table>
+          <tr>
+               <th style = "width:30%">MONDAY</th>
+               <th style = "width:30%">Subject</th>
+               <th>Remarks</th>
+          </tr>
+          <tr>
+               <td>9:00 AM-12:00 AM</td>
+               <td>AFA1E-M (Lec)</td>
+               <td>Discussion about chicken</td>
+          </tr>
+
+          <tr>
+               <td>12:00 NN-4:30 PM</td>
+               <td>Vacant</td>
+               <td>Guitar Lessons</td>
+          </tr>
+          <tr>
+               <td>4:30 PM-7:30 PM</td>
+               <td>PROFED1-M</td>
+               <td>Discussion about Cognitive Development</td>
+          </tr>
+                <tr>
+               <th style = "width:30%">TUESDAY</th>
+               <th style = "width:30%">Subject</th>
+               <th>Remarks</th>
+          </tr>
+          <tr>
+               <td>7:00 AM-10:00 AM</td>
+               <td>ICT1E-M (Lec)</td>
+               <td>Discussion about HTML</td>
+          </tr>
+
+          <tr>
+               <td>11:00 AM-2:00 PM</td>
+               <td>ICT1E (Lab)</td>
+               <td>Practical HTML</td>
+          </tr>
+          <tr>
+               <td>2:30 PM-5:30 PM</td>
+               <td>AFA1E-M (Lab)</td>
+               <td>Reporting about Chicken</td>
+          </tr>
+          <tr>
+               <th style = "width:30%">WEDNESDAY</th>
+               <th style = "width:30%">Subject</th>
+               <th>Remarks</th>
+          </tr>
+          <tr>
+               <td>11:00 AM-2:00 PM</td>
+               <td>ICT1E-M (Lab)</td>
+               <td>Practical HTML (continuation)</td>
+          </tr>
+
+          <tr>
+               <td>2:30 PM-5:30 PM</td>
+               <td>AFA1E (Lab)</td>
+               <td>Continuation of Reporting</td>
+          </tr>
+          <tr>
+               <td>6:00 PM-9:00 PM</td>
+               <td>PROFED2-M (Lab)</td>
+               <td>Midterm Exam</td>
+          </tr>
+           <tr>
+               <th style = "width:30%">THURSDAY</th>
+               <th style = "width:30%">Subject</th>
+               <th>Remarks</th>
+          </tr>
+          <tr>
+               <td>8:00 AM-10:00 AM</td>
+               <td>PATHFIT1-M</td>
+               <td>Midterm Exam</td>
+          </tr>
+
+          <tr>
+               <td>11:00 AM-2:00 PM</td>
+               <td>ICT1E (Lab)</td>
+               <td>Practical HTML (continuation)</td>
+          </tr>
+          <tr>
+               <td>2:30 PM-5:30 PM</td>
+               <td>AFA1E-M (Lab)</td>
+               <td>Discussion</td>
+          </tr>
+          <tr>
+               <th style = "width:30%">FRIDAY</th>
+               <th style = "width:30%">Subject</th>
+               <th>Remarks</th>
+          </tr>
+          <tr>
+               <td>8:00 AM-10:00 AM</td>
+               <td>GEC4-M(MMW)</td>
+               <td>Midterm Exam</td>
+          </tr>
+
+          <tr>
+               <td>12:00 NN-3:00 PM</td>
+               <td>GEC5-M(Purcomm)</td>
+               <td>Presentation</td>
+          </tr>
+          
+       </table>
+
+<!HERE STARTS THE FORM>
+       <h2>&#128151 My Forms &#128151</h2>
+       <form actios="/action_page.php">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="Lj"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Cubar"><br><br>
+          <input type="submit" value="Submit">
+       </form>
+
+       <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+
+
+  
+  </body>
+
+
+</html> 

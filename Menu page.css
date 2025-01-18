@@ -407,7 +407,7 @@ ur {
 
 .menu .category-text h3 {
 	border: #6f2dbd;
-	boder-radius: 50px;
+	border-radius: 50px;
 	border-style: solid;
 	border-width: 6px;
 	display: inline-block;
@@ -540,9 +540,9 @@ display: inline-flex;
 	margin-top: 3rem;
 }
 
-.footer .container {
+.footer .container{
 	display: grid;
-	grid-templete-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 	padding: 0.5rem 0;
 }
 
@@ -551,7 +551,7 @@ display: inline-flex;
 	margin-left: 50px;
 }
 
-.footer .contianer .footer-box-1 .navbar a {
+.footer .container .footer-box-1 .navbar a {
 	color: black;
 	text-decoration: none;
 	font-size: 1.5rem;
@@ -563,39 +563,42 @@ display: inline-flex;
 }
 
 .footer .container .footer-box-1 h3 {
-color: black;
-font-size: 1.8rem;
-letter-spacing: 0.1rem;
+	color: black;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
 }
 
-.footer .container .footer-box-1 .footer-loc a { 
+.footer .container .footer-box-1 a {
 	color: black;
 	font-size: 20px;
 }
 
- .footer .container .footer-box h3 { 
- 	color: black;
-    font-size: 1.8rem;
-    font-weight: bolder;
-    letter-spacing: 0.1rem;
-} 
-
-.footer .container .footer-box p { color: black;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    padding: 1.2rem 0;
+/* general text format start*/
+.footer .container .footer-box h3 {
+	color: black;
+	font-size: 1.8rem;
+	font-weight: bolder;
+	letter-spacing: 0.1rem;
 }
+
+.footer .container .footer-box p {
+	color: black;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	padding: 1.2rem 0;
+}
+
 
 .footer .container .footer-box button {
 	font-size: 100px;
 }
 
-/*general text format end*/
+/* general text format end*/
 
-.footer .container .footer-box format input {
-width: 70%;
-padding: 1rem;
-border-radius: 40px;
+.footer .container .footer-box form input {
+	width: 70%;
+	padding: 1rem;
+	border-radius: 40px;
 }
 
 .footer .container .footer-box p a {
@@ -625,11 +628,11 @@ border-radius: 40px;
 	font-size: 50px;
 }
 
-.footer .container .footer-box .icons a{
-	display: grid;
+.footer .container .footer-box .icons {
+	display: ;
 }
 
-.footer .container .footer-box .icons a:hover{
+.footer .container .footer-box .icons a:hover {
 	color: floralwhite;
 	font-size: 60px;
 }
