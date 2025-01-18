@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale-1">
+<title>Home</title>
+<link rel="icon" type="image/x-icon" href="logo.jpg">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<!---css file--->
+	<link rel="stylesheet" type="text/css" href="Home page.css">
+</head>
+
+<body>
+	<!---- header start ---->
+	<header class ="header">
+		<!--logo-->
+		<a href="Home page.html" class="logo">
+		<img src="logo.jpg">
+	</a>
+
+<!--- nav bar start --->
+<nav class="navbar">
+	<input type="checkbox" id="check">
+	<label for="check" class="check-btn">
+		<i class="fas fa-bars"></i>
+	</label>
+<ul>
+	<li><a class="active" href="Home page.html">Home</a></li>
+	<li><a href="Menu page.html">Menu</a></li>
+	<li><a href="About Us.html">About us</a></li>
+</ul>
+<!-- <div id="menu-btn" class="fas fa-bars"></div> -->
+</nav>
+<!-- nav bar end -->
+
+
+<!--- hyperlink with icons (search, cart, profile, menu) --->
+<div class="icons">
+<div class="cart-container" onmouseover="showCartForm()" onmouseover="hideCartFrom()">
+	<a href=""> <!--- 4-checkout.html. link??? --->
+	<div class="fas fa-shopping-cart" id="cartButton"></div>
+	</a>
+	 <div class="cart-form" id="cartForm">
+	    	<form>
+	    		<div id="cartItems"></div>
+	    		<div id="total-price">Total Price: P<span id="totalPrice">0.00</span></div>
+	    	</form>
+	   
+	    </div>
+	</div>
+</div>
+<!--- end --->
+</header>
+<!--- header end --->
+
+<!--- page content --->
+<div class="content">
+	<section class="about">
+	<div class="about-image">
+		<img src="clothes.jpg"><!---Image--->
+	</div>
+	<div class="about-content">
+		<h2>C&C Clothing</h2>
+		<p>High class clothing brands.</p><!---Description needed--->
+	</div>
+</section>
+</div>
+
+<!-- top sellers start -->
+<section class="menu" id="menu">
+	<h1 class="heading"> BEST <span>SELLING</span> CLOTHES</h1>
+
+<div class="menu" id="menu"><!--- menu opening tag --->
+<div class="container menu-section">
+	<!---product 1 --->
+	<a href="Menu page.html#Pink-Hoodie"><!--- menu link--->
+		<div class="menu-box">
+		<div class="menu-img">
+			<img src="pink hoodie.jpg" alt="Pink Hoodie">
+		</div>
+		<div class="menu-content">
+			<h3>Pink Hoodie</h3>
+			<p>Cozy and Warm</p>
+		</div>
+	</div></a>
+
+	<!---product 2--->
+	<a href="Menu page.html#Duck-Shirt"><!--- menu link --->
+		<div class="menu-box">
+		<div class="menu-img">
+			<img src="green tshirt.jpg" alt="Duck Shirt">
+		</div>
+		<div class="menu-content">
+			<h3>Duck Shirt</h3>
+			<p>Duck Stylish</p>
+		</div>
+	</div></a>
+
+    <!---product 3--->
+	<a href="Menu page.html#Long-Dress-Skirt"><!--- menu link --->
+		<div class="menu-box">
+		<div class="menu-img">
+			<img src="green floral.jpg" alt="Long Dress Skirt">
+		</div>
+		<div class="menu-content">
+			<h3>Long Dress Skirt</h3>
+			<p>Refreshing</p>
+		</div>
+	</div></a>
+</div><!--- menu closing tag --->
+<div class="to-menu">
+	<a href="Menu page.html">See more clothings here!!!</a><!--- menu link--->
+</div>
+</section>
+<!--- top seller end --->
+
+<!--- about us start --->
+
+<!--- about us end --->
+
+<script src=""></script><!--- menu link???--->
+
+<!--- footer start--->
+<section class="footer">
+
+	<div class="contianer">
+		<div class="footer-box-1">
+			<h3>Location</h3>
+			<div class="footer-loc">
+				<a href="" target=_blank>Pandacan, Manila</a><!--- Location Link --->
+			</div>
+		</div>
+
+		<div class="footer-box">
+			<h3>Newsletter</h3>
+			<p>Stay updated with our latest</p>
+			<form>
+				<input type="email" name="email" placeholder="">
+				<button type="submit"><i class="fa-solid fa-right-long"></i></button>
+			</form>
+		</div>
+
+		<div class="footer-box">
+			<h3>Contact Us</h3>
+			<p>Connect With Us On</p>
+			<div class="icons">
+				<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+				<a href=""><i class="fa-brands fa-intragram"></i></a>
+				<a href=""><i class="fa-brands fa-twitter"></i></a>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!---footer end--->
+
+</body>
+</html>

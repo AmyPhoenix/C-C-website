@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs">
+    <!-- css file -->
+    <link rel="stylesheet" type="text/css" href="Menu page.css">
+    <script src="https://"></script>
+</head>
+
+<body>
+	<!-- header start -->
+	<header class ="header">
+		<!-- logo -->
+		<a href="Home page.html" class="logo">
+		<img src="logo.jpg">
+	    </a>
+	    
+	    <!-- nav bar start -->
+	    <nav class="navbar">
+	    	<input type="checkbox" id="check">
+	    	   <label for="check" class="check-btn">
+	    	   	    <i class="fas fa-bars"></i>
+	    	   	</label>
+	    	<ul>
+	    		<li><a href="Home page.html">Home</a></li>
+	    		<li><a class="active" href="Menu page.html">Menu</a></li>
+	    		<li><a href="About Us.html">About Us</a></li>
+	    	</ul>
+	    <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
+	    </nav>
+	    <!-- nav bar end -->
+
+
+	    <!-- hyperlink with icons (search, cart, profile, menu button) -->
+	    <div class= "icons">
+	    <div class="cart-container" onmouseover="showCartForm()" onmouseout="hideCartForm()">
+	    	<a href="4-cart.html">
+	        <div class="fas fa-shopping-cart" id="cartButton"></div>
+	        </a>
+	            <div class="cart-form" id="cartForm">
+	            	<form>
+	            		<div id="cartItems"></div>
+	            		<div id="total-price">Total Price: php<span id="totalPrice">0.00</span></div>
+	            	</form>
+	            </div>
+	    </div>
+	    <!-- hyperlink with icons (search, cart, profile, menu button) -->
+	</header>
+	<!-- header end -->
+
+	<!-- Menu Section -->
+	<section class="menu" id="menu">
+	<h1 class="heading">OUR <span>MENU</span></h1>
+	<p class="heading-description">Take a look at our Branded Clothes!</p>
+
+
+	<div class="category-text"><h3>Hoodies</h3></div>
+
+<div class="menu">
+	<div class="container menu-section">
+		<!-- product 1 -->
+		<div class="menu-box">	
+			<div class="menu-img">
+            <img src="black hoodie.jpg" alt="Hoodie">
+        </div>
+        <div class="menu-content">
+        	<h3>Hoodie</h3>
+        	<p>Black Hoodie "Abstract Design"</p>
+        	 <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item1-s">Small <span>php300.00</span></button> <!-- SMALL -->
+        	 </div>
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item1-m">Medium <span>php400.00</span></button> <!-- MEDIUM -->
+        	 </div>
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item1-l">Large <span>php500.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 2 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="pink hoodie.jpg" alt="Hoodie">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Hoodie</h3>
+    	   <p>Pink Hoodie "Aelfric Eden"</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item2-s">Small <span>php350.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item2-m">Medium <span>php400.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item2-l">Large <span>php550.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 3 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="brown hoodie.jpg" alt="Hoodie">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Hoodie</h3>
+    	   <p>Brown Hoodie "Butterfly & Flower".</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php400.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php500.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php650.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 4 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="purple hoodie.jpg" alt="Hoodie">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Hoodie</h3>
+    	   <p>Purple Hoodie "The Expressions"</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item4-s">Small <span>php500.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item4-m">Medium <span>php650.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item4-l">Large <span>php750.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- Add more menu items here with the same structure -->
+  </div>
+
+    <div class="category-text"><h3>Shirts</h3></div>
+
+  <div class="container menu-section">
+    <!-- product 1 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="sunflower tshirt.jpg" alt="Shirt">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Shirt</h3>
+    	   <p>Yellow Shirt "Sunflower Portrait"</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php250.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php300.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php350.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 2 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="red tshirt.jpg" alt="Shirt">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Shirt</h3>
+    	   <p>Red Shirt "Another"</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php350.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php400.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php500.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 3 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="blue tshirt.jpg" alt="Shirt">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Shirt</h3>
+    	   <p>Blue Shirt "Vintage"</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php400.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php450.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php520.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 4 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="green tshirt.jpg" alt="Shirt">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Shirt</h3>
+    	   <p>Green Shirt "GetUPearly Duck"</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php450.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php550.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php650.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+            <!-- Add more menu items here with the same structure -->
+    </div>
+            
+        <div class="category-text"><h3>Long dress skirts</h3></div>
+
+    <div class="container menu-section">
+    	<!-- product 1 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="floral dress skirt.jpg" alt="Long dress skirts">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Long dress skirt</h3>
+    	   <p>White floral dress skirt</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php100.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php150.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php200.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 2 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="green floral.jpg" alt="Long dress skirts">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Long dress skirt</h3>
+    	   <p>Green floral dress skirt</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php150.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php250.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php350.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 3 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="blue floral.jpg" alt="Frappe Strawberry-Vanilla">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Long dress skirt</h3>
+    	   <p>Blue floral dress skirt</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php200.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php300.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php400.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    <!-- product 4 -->
+    <div class="menu-box">
+    	<div class="menu-img">
+    		<img src="yellow dress.jpg" alt="Frappe Strawberry-Vanilla">
+    	</div>
+    	<div class="menu-content">
+    	   <h3>Long dress skirt</h3>
+    	   <p>Yellow plain skirt</p>
+    	    <div onclick="addToCart('Frappe Mocha (Small)', 'php90.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-s">Small <span>php150.00</span></button> <!-- SMALL -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (Medium)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-m">Medium <span>php250.00</span></button> <!-- MEDIUM -->
+        	 </div>
+
+        	 <div onclick="addToCart('Frappe Mocha (LARGE)', 'php100.00', 'Products/No BG/frappe_mocha.png', 'item1-s'); return false;">
+        	 	<button id="item3-l">Large <span>php300.00</span></button> <!-- LARGE -->
+        	 </div>
+        </div>
+    </div>
+
+    </section>
+        <!-- Menu Section End -->
+
+            <!-- footer start -->
+        <section class="footer">
+
+        	<div class="container">
+        		<div class="footer-box-1">
+        			<h3> Location </h3>
+        			<div class="footer-loc">
+        				<a href="https://www.blahblahblah">Pandacan, Manila</a>
+        		    </div>
+        		</div>
+
+        		<div class="footer-box">
+        			<h3>Newsletter</h3>
+        			<p>Stay Update with our Latest</p>       			
+                    <form>
+                    	<input type="email" name="email" placeholder="name@gmail.com">
+                    	<button type="submit"><i class="fa-solid fa-right-long"></i></button>
+                    </form>
+                </div>
+
+                <div class="footer-box">
+                	<h3>Contact Us</h3>
+                	<p>Connect With Us On:</p>
+                	<div class="Icons">
+                		<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+                		<a href="#"><i class="fa-brands fa-twitter"></i></a>
+                	</div>
+
+                </div>
+            </div>
+        </section>
+        <!-- footer end -->
+        <script src="2-menu.js"></script>
+</body>
+</html>
